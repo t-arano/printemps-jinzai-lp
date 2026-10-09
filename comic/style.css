@@ -15,3 +15,21 @@ h2{font-weight:850}.flow-section h2,.price-section h2{background:var(--accent-gr
 .comic-section{padding:54px 0 40px;background:linear-gradient(145deg,#fff4f5,#faf3ff)}.comic-heading{text-align:center;margin-bottom:30px}.comic-heading .section-label{justify-content:center}.comic-heading h2{font-size:36px;margin:8px 0 16px}.comic-heading>p:last-child{color:#65566d;font-size:16px}.comic-page{max-width:800px;margin:auto;border:6px solid #fff;border-radius:10px;overflow:hidden;box-shadow:0 12px 35px #a7529826}.comic-page img{display:block;width:100%;height:auto}.comic-note{font-size:13px;color:#806783;text-align:center;margin-top:18px}@media(max-width:700px){.comic-section{padding:34px 0 27px}.comic-section>.wrap{width:100%}.comic-heading{padding:0 20px;margin-bottom:22px}.comic-heading h2{font-size:29px}.comic-heading>p:last-child{font-size:14px}.comic-page{border:0;border-radius:0;box-shadow:none}.comic-note{font-size:12px;padding:0 16px;margin-top:15px}}
 
 .comic-zoom{text-align:center;font-size:13px;color:#83367f;margin-top:15px}.comic-page a{display:block}
+
+/* Clear benefit-led hero, shared by video and comic editions. */
+.hero-grid{grid-template-columns:minmax(0,1.45fr) minmax(290px,1fr);gap:48px;padding-block:54px 60px}
+.hero .eyebrow{transform:none;border-radius:5px;box-shadow:none;margin-bottom:23px;font-size:13px;padding:7px 13px}
+.hero .hero-headline{font-size:clamp(46px,5.1vw,66px);line-height:1.22;letter-spacing:-.055em;font-weight:900;margin:0}
+.hero-headline .headline-intro{display:block;font-size:.49em;letter-spacing:.015em;margin-bottom:13px;color:#49334e}
+.hero-headline .headline-main{display:block;color:#b83184}
+.hero-headline .headline-line{display:block;width:fit-content;white-space:nowrap;position:relative;color:#962989;background:linear-gradient(transparent 76%,#ffdd74 76%,#ffdd74 96%,transparent 96%);padding:0 5px 7px 0;margin-top:4px;text-shadow:0 2px 0 #fff}
+.hero .hero-lead{font-size:16px;line-height:1.85;margin-top:22px;max-width:540px}
+.hero-proof{display:flex;align-items:center;gap:10px;margin-top:19px;font-size:13px;font-weight:700;color:#715b71}
+.hero-proof strong{background:#fff;border:1px solid #e4b9d4;border-radius:30px;padding:5px 12px;color:#ad347d;white-space:nowrap}
+.hero .hero-actions{margin-top:21px}
+.hero .hero-actions .cta{width:100%;max-width:500px;gap:9px;font-size:18px;padding-inline:14px}
+.hero-cta-note{font-size:11px;color:#786479;margin-top:11px;max-width:500px;text-align:center}
+.hero .watch-link{font-size:13px;margin-top:13px}
+.hero .hero-card{transform:none;box-shadow:10px 12px 0 #e9d1ea;align-self:center}
+@media(max-width:1000px) and (min-width:701px){.hero-grid{gap:28px;grid-template-columns:minmax(0,1.3fr) minmax(260px,1fr)}.hero .hero-headline{font-size:49px}.hero .hero-actions .cta{font-size:15px}.hero-proof{gap:6px;font-size:11px}.hero-proof strong{padding-inline:8px}}
+@media(max-width:700px){.hero-grid{grid-template-columns:1fr;gap:30px;padding-block:26px 34px}.hero .eyebrow{font-size:11px;margin-bottom:23px;padding:6px 10px}.hero .hero-headline{font-size:clamp(39px,11.8vw,65px);line-height:1.23;letter-spacing:-.055em}.hero-headline .headline-intro{font-size:.49em;margin-bottom:12px}.hero-headline .headline-line{margin-top:5px;padding-bottom:6px}.hero .hero-lead{font-size:14px;line-height:1.85;margin-top:18px}.hero-proof{gap:8px;margin-top:15px;font-size:11px}.hero-proof strong{padding:5px 10px}.hero .hero-actions{margin-top:18px}.hero .hero-actions .cta{font-size:15px;min-height:61px;gap:7px;max-width:none}.hero-cta-note{font-size:10px;margin-top:10px;max-width:none}.hero .watch-link{margin-top:12px}.hero .hero-card{box-shadow:6px 7px 0 #e9d1ea}.fields{flex-wrap:wrap}}
